@@ -1,7 +1,5 @@
 #!/bin/bash
-#Удаление каталогов и файлов, созданных скриптом script.sh
-
 for ((i=0;i<50;i++))
 do
-	rm -rfd $i
+	git rm -fr /home/sem/Рабочий\ стол/git_all/bash_lab2/$i
 done
